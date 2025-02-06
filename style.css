@@ -18,6 +18,7 @@ h2{
 
 }
 
+/* Menu */
 
 .menu-container{
     display: flex;
@@ -48,6 +49,8 @@ h2{
     color: #F9FAF8;
     font-weight: 900;
 }
+
+/* Parte superior do site com imagem principal - Header */
 
 .header-container{
     display: flex;
@@ -92,17 +95,25 @@ h2{
     cursor: pointer;
 }
 
+/* Efeito botao parte superior */
+
 button:hover{
-    background-color: #F9FAF8;
-    color: #1F2837;
+    background-color: #245399;
+    color: #E5E7EB;
+    font-size: 19px;
 }
 
 .img-header{
     display: flex;
     background-color: gray;
     width: 500px;
+    align-items: center;
+    justify-content: center;
     height: 260px;
 }
+
+
+/* Parte de informacoes logo abaixo do header*/
 
 .info-container{
     display: flex;
@@ -155,6 +166,8 @@ button:hover{
     color: #1F2837;
 }
 
+/* Parte com uma citacao do site logo abaixo das informacoes */
+
 .feel-container{
     display: flex;
     background-color: #E5E7EB;
@@ -186,6 +199,8 @@ button:hover{
     font-weight: bold;
     font-size: 26px;
 }
+
+/* Uma area para alertar sobre fazer o login, abaixo da referencia */
 
 .action-container{
     display: flex;
@@ -228,12 +243,20 @@ button:hover{
     cursor: pointer;
 }
 
+.action-button button:hover{
+    background-color: #245399;
+    color: #E5E7EB;
+    font-size: 19px;
+}
+
+/* Rodape */
+
 .footer{
     display: flex;
     background-color: #1F2837;
     padding: 20px 0;
     align-items: center;
     justify-content: center;
-    color: #E5E7EB;
+    color: #F9FAF8;
     
 }
